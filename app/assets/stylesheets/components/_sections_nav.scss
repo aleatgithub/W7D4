@@ -1,0 +1,24 @@
+
+.section-links {
+  display: flex;
+  border-bottom: 1px solid $light-gray;
+  justify-content: center;
+  font-family: $sans-serif;
+
+}
+
+.section-links li {
+  margin: 10px; 
+}
+
+.section-links a:hover {
+  background: $light-gray;
+  cursor: pointer;
+}
+
+#all:hover {
+  text-decoration: underline;
+  background: white;
+}
+
+
